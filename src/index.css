@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base{
+  html{
+    @apply bg-gray-100 w-full h-full text-blue-900;
+  
+  }
+  #root{
+    @apply flex-col w-full h-full 
+          }
+  body{
+    @apply w-full h-full m-0
+      
+     
+  }
+ 
+ 
+  }

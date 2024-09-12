@@ -1,0 +1,18 @@
+#Details{
+    @apply w-full flex lg:flex-row md:flex-col sm:flex-col gap-20 px-28 py-16 text-gray-600
+}
+#about{
+    @apply flex flex-col gap-3
+}
+p{
+    @apply w-96  
+}
+.image{
+    @apply w-96 h-96 
+}
+h1{
+    @apply  font-bold text-teal-800 text-9xl
+}
+#read{
+    @apply bg-teal-600 font-bold text-white  w-72 rounded h-8
+}

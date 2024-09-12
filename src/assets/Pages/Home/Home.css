@@ -1,0 +1,45 @@
+#homePage{
+@apply grid lg:grid-cols-4  sm:grid-cols-1  lg:w-9/12  sm:w-4/12 px-8 justify-center gap-4 py-8 sm:px-32
+}
+.container{
+    @apply flex w-full
+}
+#sidebar{
+    @apply md:w-2/12 bg-gray-200 p-4 flex flex-col text-teal-600 
+    font-bold gap-4 sm:w-8/12
+}
+.book{
+    @apply bg-teal-400 rounded-lg py-4 shadow-md  gap-5 flex flex-col items-center relative md:w-60
+}
+img{
+    @apply h-40 w-44
+   
+}
+input{
+    @apply w-full cursor-pointer rounded border-slate-800 h-10
+}
+#submit{
+    @apply bg-teal-400 hover:bg-teal-500 text-white font-bold  w-full h-8 rounded
+}
+form{
+    @apply flex flex-col w-full gap-4
+}
+.hover{
+    @apply absolute bg-hover hover:text-white hover:opacity-100 flex items-center justify-center inset-0  opacity-0}
+#more{
+    @apply bg-teal-600 w-20 h-8 rounded
+}
+.pagination{
+    @apply flex gap-4 w-80  items-center 
+}
+.btn{
+    @apply bg-teal-400 hover:bg-teal-500 text-white font-bold  rounded
+}
+    
+ #rating{
+    @apply flex flex-row items-center h-10 
+ }
+    
+   
+
+

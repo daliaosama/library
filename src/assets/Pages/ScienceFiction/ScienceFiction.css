@@ -1,0 +1,3 @@
+#science{
+    @apply grid lg:grid-cols-4 sm:grid-cols-1 w-full px-8 justify-center gap-2 py-8
+}
