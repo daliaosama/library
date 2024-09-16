@@ -84,7 +84,9 @@ function Layout() {
         
         </header>
         <Outlet></Outlet>
-       
+        <footer>
+         <p>© 2024 booklibrary. All rights reserved.</p>
+       </footer>
       </main>
      
     

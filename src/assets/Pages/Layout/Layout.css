@@ -10,3 +10,6 @@ header{
     .Slider{
         @apply w-10/12 h-48 flex self-center
     }
+    footer{
+        @apply w-full flex justify-center 
+    }
